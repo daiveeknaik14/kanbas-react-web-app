@@ -1,0 +1,64 @@
+.wd-kanbas-navigation {
+  background-color: #333;
+  list-style: none;
+  padding: 0;
+  width: 90px;
+  margin: 0;
+}
+
+.wd-kanbas-navigation li {
+  padding: 12px;
+  margin-bottom: 12px;
+  font-size: 0.85em;
+  text-align: center;
+}
+
+.wd-kanbas-navigation li.wd-active {
+  background-color: #f5f5f5;
+}
+.wd-kanbas-navigation li.wd-active a {
+  color: #e60000;
+}
+
+.wd-kanbas-navigation a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+.wd-kanbas-navigation a i {
+  color: #e60000;
+  font-size: 2.2em;
+  margin-bottom: 6px;
+}
+
+.wd-course-navigation {
+  background-color: #f5f5f5;
+  list-style: none;
+  padding: 0;
+  width: 200px;
+  margin: 0;
+  margin-left: 22px;
+}
+.wd-course-navigation li {
+  padding-left: 12px;
+  margin-bottom: 7px;
+  margin-top: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.wd-course-navigation li.wd-active {
+  border-left: 2px solid #333;
+}
+.wd-course-navigation li.wd-active a {
+  color: #333;
+}
+
+.wd-course-navigation a {
+  color: #e60000;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #e60000;
+}
