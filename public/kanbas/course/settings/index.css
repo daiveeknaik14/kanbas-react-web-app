@@ -1,0 +1,10 @@
+.nav-link {
+  color: #e60000;
+  border-bottom: #a9a9a9 2px solid;
+  border-top: #f5f5f5 2px solid;
+}
+
+.wd-nav-active {
+  color: #333;
+  border: #a9a9a9 2px solid;
+}
