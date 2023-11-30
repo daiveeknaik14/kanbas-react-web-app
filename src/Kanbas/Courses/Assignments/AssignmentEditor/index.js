@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate, useParams, Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { updateAssignment, setAssignment } from "../assignmentsReducer";
+import * as client from "../client";
 
 function AssignmentEditor() {
   const assignment = useSelector(
@@ -34,7 +35,10 @@ function AssignmentEditor() {
       alert("Please Complete all input!");
       return;
     }
-    dispatch(updateAssignment({ ...assignment, course: courseId }));
+    client.updateAssignment(assignment).then((a) => {
+      dispatch(updateAssignment(a));
+    });
+
     setAssignmentDefault();
     navigate(`/Kanbas/Courses/${courseId}/Assignments`);
   };
