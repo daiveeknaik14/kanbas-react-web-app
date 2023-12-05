@@ -1,5 +1,6 @@
 import db from "../../Database";
 import { useParams } from "react-router-dom";
+import GradesUpperButtons from "./GradesUpperButtons";
 function Grades() {
   const { courseId } = useParams();
   const assignments = db.assignments.filter(
@@ -10,6 +11,8 @@ function Grades() {
   );
   return (
     <div className="my-2 mx-2">
+      <GradesUpperButtons />
+
       <div className="table-responsive">
         <table className="table table-striped">
           <thead>

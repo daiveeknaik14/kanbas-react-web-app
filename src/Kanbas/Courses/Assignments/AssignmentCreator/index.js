@@ -40,9 +40,6 @@ function AssignmentCreator() {
     });
     setAssignmentDefault();
     navigate(`/Kanbas/Courses/${courseId}/Assignments`);
-    // dispatch(addAssignment({ ...assignment, course: courseId }));
-    // setAssignmentDefault();
-    // navigate(`/Kanbas/Courses/${courseId}/Assignments`);
   };
 
   const handleCancel = () => {

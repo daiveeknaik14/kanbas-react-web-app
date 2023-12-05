@@ -21,6 +21,12 @@ function Nav() {
       >
         Kanbas
       </Link>
+      <Link className="nav-link" to="/Labs/a5">
+        A5
+      </Link>
+      <Link className="nav-link" to="/project">
+        project
+      </Link>
     </nav>
   );
 }

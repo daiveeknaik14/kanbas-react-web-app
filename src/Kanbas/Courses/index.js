@@ -47,7 +47,7 @@ function Courses({}) {
               />
               <Route
                 path="Assignments/Creator"
-                element={<AssignmentCreator />}
+                element={<AssignmentEditor />}
               />
               <Route path="Grades" element={<Grades />} />
             </Routes>
